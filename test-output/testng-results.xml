@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T12:11:11 CST" name="Default suite" finished-at="2022-02-09T12:11:32 CST" duration-ms="21627">
+    <groups>
+    </groups>
+    <test started-at="2022-02-09T12:11:11 CST" name="Default test" finished-at="2022-02-09T12:11:32 CST" duration-ms="21627">
+      <class name="testcases.LoginTestCase">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:11 CST" name="browserlaunch" finished-at="2022-02-09T12:11:22 CST" duration-ms="11232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method is-config="true" signature="logWithScreenshot()[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:22 CST" name="logWithScreenshot" finished-at="2022-02-09T12:11:23 CST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logWithScreenshot -->
+        <test-method signature="failTest()[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:23 CST" name="failTest" finished-at="2022-02-09T12:11:23 CST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at testcases.LoginTestCase.failTest(LoginTestCase.java:308)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:23 CST" name="getResult" finished-at="2022-02-09T12:11:26 CST" duration-ms="3001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failTest status=FAILURE method=LoginTestCase.failTest()[pri:0, instance:testcases.LoginTestCase@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="passTest()[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:26 CST" name="passTest" finished-at="2022-02-09T12:11:26 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:26 CST" name="getResult" finished-at="2022-02-09T12:11:26 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=LoginTestCase.passTest()[pri:0, instance:testcases.LoginTestCase@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="skipTest()[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:26 CST" name="skipTest" finished-at="2022-02-09T12:11:26 CST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+at testcases.LoginTestCase.skipTest(LoginTestCase.java:316)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:26 CST" name="getResult" finished-at="2022-02-09T12:11:26 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=skipTest status=SKIP method=LoginTestCase.skipTest()[pri:0, instance:testcases.LoginTestCase@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Login()[pri:1, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:26 CST" name="Login" finished-at="2022-02-09T12:11:30 CST" duration-ms="4778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:30 CST" name="getResult" finished-at="2022-02-09T12:11:30 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTestCase.Login()[pri:1, instance:testcases.LoginTestCase@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="getTitleOfTheHomePage()[pri:2, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:30 CST" name="getTitleOfTheHomePage" finished-at="2022-02-09T12:11:30 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleOfTheHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:30 CST" name="getResult" finished-at="2022-02-09T12:11:30 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitleOfTheHomePage status=SUCCESS method=LoginTestCase.getTitleOfTheHomePage()[pri:2, instance:testcases.LoginTestCase@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="logout()[pri:3, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:30 CST" name="logout" finished-at="2022-02-09T12:11:31 CST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:31 CST" name="getResult" finished-at="2022-02-09T12:11:31 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=LoginTestCase.logout()[pri:3, instance:testcases.LoginTestCase@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.LoginTestCase@3c77d488]" started-at="2022-02-09T12:11:31 CST" name="closeBrowser" finished-at="2022-02-09T12:11:32 CST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

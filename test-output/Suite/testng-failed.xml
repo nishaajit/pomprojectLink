@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.LoginTestCase">
+        <methods>
+          <include name="pipelineopportunities"/>
+          <include name="NewButton"/>
+          <include name="createview"/>
+          <include name="CreateView"/>
+          <include name="summary"/>
+          <include name="newopty"/>
+          <include name="closeBrowser"/>
+          <include name="stuckoppor"/>
+          <include name="MySettings"/>
+          <include name="contstab"/>
+          <include name="Newview"/>
+          <include name="oppertunities"/>
+          <include name="Editprof"/>
+          <include name="hometab"/>
+          <include name="browserlaunch"/>
+          <include name="contstest"/>
+        </methods>
+      </class> <!-- testcases.LoginTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
